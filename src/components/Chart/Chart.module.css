@@ -1,11 +1,16 @@
-.container {
+.container{
   display: flex;
   justify-content: center;
-  width: 65%;
+  width: 87%;
+  background: white;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media only screen and (max-width: 770px) {
-  .container {
-    width: 100%;
+@media (max-width: 770px){
+  .container{
+      width: 100%;
   }
 }
